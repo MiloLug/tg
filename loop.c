@@ -387,7 +387,7 @@ int all_authorized (void) {
 int zero[512];
 
 
-int readline_active;
+extern int readline_active;
 int new_dc_num;
 int wait_dialog_list;
 
